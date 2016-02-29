@@ -8,5 +8,5 @@ RUN gem install --no-rdoc --no-ri sinatra json redis
 
 
 RUN mkdir -p /opt/webapp
-EXPOSE 80
+EXPOSE 4567
 CMD ["/opt/webapp/bin/webapp"]
